@@ -127,6 +127,12 @@ similarly for the other samples.
 |[sample_image_embeddings.py](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/ai/azure-ai-inference/samples/sample_image_embeddings.py) | One image embeddings operation, using a synchronous client. |
 |[sample_image_embeddings_with_defaults.py](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/ai/azure-ai-inference/samples/sample_image_embeddings_with_defaults.py) | One image embeddings operation using a synchronous client, with default embeddings configuration set in the client constructor. |
 
+### EyePop pretrained models
+
+| **File Name** | **Description** |
+|---|---|
+| [sample_eyepop_pretrained_models.py](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/ai/azure-ai-inference/samples/sample_eyepop_pretrained_models.py) | Demonstrates using all EyePop pretrained models (person detection, common objects, animal, vehicle, device, sports, pose estimation, 2D/3D body keypoints, and hand keypoints) using a synchronous client. Requires `pip install eyepop==3.12.0` and the `EYEPOP_API_KEY` environment variable. |
+
 ## Asynchronous client samples
 
 ### Chat completions
@@ -151,6 +157,12 @@ similarly for the other samples.
 |**File Name**|**Description**|
 |----------------|-------------|
 |[sample_image_embeddings_async.py](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/ai/azure-ai-inference/samples/async_samples/sample_image_embeddings_async.py) | One image embeddings operation, using an asynchronous client. |
+
+### EyePop pretrained models
+
+| **File Name** | **Description** |
+|---|---|
+| [sample_eyepop_pretrained_models_async.py](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/ai/azure-ai-inference/samples/async_samples/sample_eyepop_pretrained_models_async.py) | Demonstrates using all EyePop pretrained models using an asynchronous client. Requires `pip install eyepop==3.12.0` and the `EYEPOP_API_KEY` environment variable. |
 
 ## Troubleshooting
 
